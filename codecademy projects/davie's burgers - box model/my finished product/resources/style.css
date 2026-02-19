@@ -1,0 +1,159 @@
+/* Universal Styles. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #FAE8D4;
+    background-color: #0d0d0d;
+}
+
+a {
+    color: #FAE8D4;
+    text-decoration: none;
+}
+
+/* Navigation. */
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    font-weight: 300;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #FAE8D4;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #D95525;
+    color: #0d0d0d;
+    font-weight: 500;
+}
+
+nav img {
+    display: block;
+    margin: 20px auto;
+    width: 350px;
+}
+
+nav span {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 10px 0px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+nav a {
+    color: #F2913D;
+}
+
+/* Content Container. */
+.content {
+    width: 85%;
+    height: 500px;
+    margin: 20px auto;
+}
+
+/* Content Header. */
+.header {
+    display: flex;
+    align-items: flex-end;
+    background-image: url('./burgerphoto.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    color: #F2357B;
+    background-color: #0d0d0d;
+    padding: 8px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    width: 100%;
+    opacity: 0.8;
+    line-height: 1.2;
+    align-items: flex-end;
+}
+
+/* Content Body. */
+.content .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    margin-top: 20px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.body p {
+    font-size: 18px;
+    color: #FAE8D4;
+    margin: 10px 0;
+    font-weight: 300;
+    line-height: 1.5;
+    width: 100%;
+}
+
+/* Content Button */
+.button {
+    display: block;
+    border-radius: 2px;
+    background-color: #0d0d0d;
+    color: #F2913D;
+    width: 250px;
+    padding: 15px;
+    margin: 20px auto;
+    border: 2px solid #F2357B;
+}
+
+.button:hover {
+    background-color: #F2357B;
+    color: #0d0d0d;
+    border-color: #F2913D;
+    font-weight: 500;
+}
+
+/* Content Nutrition. */
+ul.nutrition {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+ul.nutrition li {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.nutrition .category {
+    color: #FAE8D4;
+    font-weight: 300;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.nutrition .value {
+    color: #05A8AA;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 2px;
+}

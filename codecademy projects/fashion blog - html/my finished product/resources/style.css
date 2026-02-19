@@ -1,0 +1,137 @@
+body {
+    background-color: #333;
+    color: white;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-image: url('./skyline.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0.8;
+}
+
+h1.header-title {
+    font-family: 'Georgia', serif;
+    font-size: 4em;
+    color: white;
+    background-color: #1a1a1a;
+    display: inline-block;
+    margin-bottom: 10px;
+    z-index: 1;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+h1.main-title {
+    font-family: 'Georgia', serif;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding-bottom: 5px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    font-family: 'Georgia', serif;
+    color: #aaa;
+    margin-top: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Georgia', serif;
+    color: white;
+    margin: 20px 0 10px 0;
+    display: inline-block;
+    padding-bottom: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    color: #aaa;
+    text-decoration: none;
+    border-bottom: 1px solid #aaa;
+    transition: color 0.3s, border-color 0.3s;
+    font-size: 1.1em;
+}
+
+a:hover {
+    color: white;
+    border-color: white;
+}
+
+a:visited {
+    color: #aaa;
+    border-color: #aaa;
+}
+
+p {
+    display: block;
+    font-family: 'Georgia', serif;
+    color: white;
+    line-height: 1.6;
+    margin: 0 0 20px 0;
+    padding: 0 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.section-header {
+    display: block;
+    margin: 30px auto 10px auto;
+    font-family: 'Georgia', serif;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#contact {
+    background-color: #1a1a1a;
+    border: 2px solid hsl(0, 0%, 64%);
+    padding: 0 10px 20px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+h4 {
+    font-family: 'Georgia', serif;
+    font-size: 1.3em;
+    margin: 20px 0 10px 0;
+    display: inline-block;
+    padding: 0 30px;
+    text-align: center;
+    justify-self: unset;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.related-content {
+    border: 1.25px solid #a3a3a3;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+.related-content ul {
+    list-style-type: circle;
+    padding: 0 60px;
+}
