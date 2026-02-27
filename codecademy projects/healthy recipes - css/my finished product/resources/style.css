@@ -1,0 +1,89 @@
+body {
+    color: #172601;
+    background-color: #C4D4F2;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Styles for Header Bar */
+header {
+    background-color: #172601;
+    color: #C4D4F2;
+    text-align: center;
+    padding: 20px;
+    width: 95%;
+    margin: 10px auto;
+    letter-spacing: 1.6px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+/* Style for the first paragraph */
+.description {
+    background-color: #172601;
+    color: #C4D4F2;
+    border: 2px solid #5A7302;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+/* Image */
+img {
+    display: block;
+    height: 300px;
+    margin: auto;
+}
+
+.info {
+    margin-left: 9%;
+    font-size: 18px;
+}
+
+#cook-time {
+    font-weight: bold;
+    color: #5A7302;
+}
+
+.ingredients li {
+    list-style: square;
+}
+
+h2 {
+    margin-left: 5%;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.instruction-list {
+    line-height: 1.6;
+    margin-right: 10%;
+}
+
+.external-link {
+    color: #5A7302;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.external-link:hover {
+    text-decoration: underline;
+    color: #732C02;
+}
+
+.salad {
+    margin-left: 10%;
+}
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+}
