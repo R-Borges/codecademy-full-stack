@@ -1,0 +1,292 @@
+html {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.2;
+    background-color: #F2D9D0;
+    color: #012326;
+}
+
+@font-face {
+    src: url("fonts/CroissantOne-Regular.ttf")
+    format("Croissant One");
+    font-family: "Croissant One";
+}
+
+@media only screen and (max-width: 1000px) {
+    html {
+        font-size: 14px;
+        }
+}
+
+@media only screen and (max-width: 680px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #F2D9D0;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.header .logo {
+    color: #012326;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Abril Fatface', serif;
+    letter-spacing: 1.5px;
+}
+
+.header li {
+    display: inline;
+    font-family: 'Aktiv Grotesk', sans-serif;
+    margin: 0 15px;
+    padding-right: 25px;
+    border-right: 2px solid #F2AF88;
+    font-size: 1.1rem;
+}
+
+.header li:last-child {
+    border-right: none;
+}
+
+.header li a {
+    text-decoration: none;
+    color: #012326;
+}
+
+.header li a:hover {
+    color: #046c75;
+    text-decoration: underline;
+    text-decoration-color: #F2AF88;
+    text-underline-offset: 4px;
+}
+
+@media only screen and (max-width: 550px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header .logo {
+        flex-grow: 0;
+    }
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 650px;
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-6/project-morocco/banner.jpg") no-repeat center center;
+    background-size: cover;
+    color: #F2D9D0;
+    text-align: center;
+}
+
+.banner h1 {
+    padding-top: 50px;
+    font-size: 80px;
+    font-family: 'Abril Fatface', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.banner h2 {
+    padding: 20px 0;
+    font-size: 24px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-top: 4px solid #F2AF88;
+    border-bottom: 4px solid #F2AF88;
+}
+
+@media only screen and (max-width: 750px) {
+    .banner {
+        height: 300px;
+    }
+
+    .banner h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .banner {
+        height: 250px;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+}
+
+/* Journal */
+
+.journal {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.2;
+    font-family: 'Aktiv Grotesk', sans-serif;
+    font-size: 1rem;
+}
+
+.photo {
+    margin: 30px 0;
+    text-align: center;
+    padding: 15px 35px;
+    border-radius: 2px;
+    border: 1.5px solid #012E40;
+    background-color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.photo .image-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.photo .image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.photo .caption {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    color: #012E40;
+    font-weight: 600;
+}
+
+.photo.first {
+    margin-top: 0;
+    position: relative;
+    top: -60px;
+    margin-bottom: 10px;
+}
+
+.journal p {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    padding: 0 10px;
+    line-height: 1.5;
+}
+
+.journal .first-letter {
+    float: left;
+    font-size: 1.8rem;
+    line-height: 1.1;
+    margin-right: 10px;
+    font-family: 'Abril Fatface', serif;
+    color: #012E40;
+}
+
+.quote {
+    display: block;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.9rem;
+    color: #012E40;
+    border-top: 3px solid #F2aF88;
+    border-bottom: 3px solid #F2aF88;
+    font-weight: 600;
+    margin: 20px 0;
+    padding: 10px 15px;
+}
+
+@media only screen and (max-width: 680px) {
+    .journal {
+        padding: 0 10px;
+    }
+
+    .journal p {
+        font-size: 1.2rem;
+    }
+
+    .quote {
+        font-size: 1.5rem;
+    }
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #F2D9D0;
+    color: #012326;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+}
+
+footer .image-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+footer .content {
+    font-size: 1.1rem;
+    color: #012326;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #012326;
+    font-family: 'Work Sans', sans-serif;
+}
+
+footer p:last-child {
+    font-size: 0.9rem;
+    color: #012326;
+    font-family: 'Work Sans', sans-serif;
+}
+
+footer .author {
+    font-size: 1.1rem;
+    color: #012326;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 10px;
+}
+
+footer em {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    color: #012326;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 750px) {
+    footer .content {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+
+    footer .author {
+        font-size: 1rem;
+    }
+}
